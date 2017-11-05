@@ -1,0 +1,76 @@
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="puzzle.css">
+<script src = "puzzle.js"></script>
+<title>puzzle!</title>
+<h3>퍼즐게임</h3>
+<p>시간 : <span id = "time"></span></p>
+<p><button id = "start_stop" onclick="game_start()">시작</button></p>
+<div id = "puzzle">
+
+<table id = "puzzle_table">
+<tr id = "tr1" ></tr>
+<tr id = "tr2" ></tr>
+<tr id = "tr3" ></tr>
+<tr id = "tr4" ></tr>
+</table>
+
+</div>
+
+
+<aside>
+<p>정답</p>
+<img id = 'fullimg' src="puzzleImg.jpg">
+<p>순위표</p>
+<p><input type="button" value="순위표 초기화" onclick="resetStorage()"></p>
+<table id = rank>
+	<tr>
+		<td>순위</td>
+		<td>시간</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td id = "r1"></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td id = "r2"></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td id = "r3"></td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td id = "r4"></td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td id = "r5"></td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td id = "r6"></td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td id = "r7"></td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td id = "r8"></td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td id = "r9"></td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td id = "r10"></td>
+	</tr>
+</table>
+<script>
+	showRank();
+</script>
+</aside>
+</html>

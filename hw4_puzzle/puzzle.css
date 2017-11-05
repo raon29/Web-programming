@@ -1,0 +1,23 @@
+aside{
+	float: right;
+	margin: 50px;
+	padding: 30px;
+	background-color: #DDDDDD;
+}
+#fullimg{
+	width: 200px;
+	height: 300px;
+}
+table, td, th{
+	border : 1px solid;
+	border-collapse: collapse;
+	text-align: center;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+th{
+	padding: 10px;
+	width: 50px;
+}

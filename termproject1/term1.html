@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>주차장 관리 ㅅㅑ샤샤</title>
+	<link rel="stylesheet" type="text/css" href="./style_term1.css">
+	<script src="js_term1.js"></script>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+</head>
+<body>
+
+<form>
+	<fieldset>
+		<table id="title">
+			<tr>
+                <td></td>
+				<td>제조사</td>
+				<td>차종</td>
+				<td>가격</td>
+				<td>크기</td>
+				<td>상태</td>
+			</tr>
+		</table>
+
+		<hr noshade>
+		<table id="carList">
+		</table>
+		<hr noshade><br>
+        
+        <p id="car_count">등록 차량 수 : 0 대</p>
+        <p id="car_park">입고 차량 수 : 0 대</p>
+		
+        <input type="button" value="In" id="inButton" onclick="incar()" class="button"/>
+        <input type="button" value="Out" id="outButton" onclick="outcar()" class="button"/>
+	</fieldset>
+
+	
+	<fieldset>
+		<ul id="listModify">
+		
+			<li><label>제조사</label>
+			<input type="text" list="datalist" name="a" id="productor"></input>
+			<datalist class="Modify" id="datalist">
+				<option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="benz">benz</option>
+				<option value="infiniti">infiniti</option>
+				<option value="jaguar">jaguar</option>
+			</datalist></li>
+			
+			<li><label>차종</label><input type="text" class="Modify" id="carType"></input></li>
+			
+			<li><label>가격</label><input type="text" class="Modify" id="carPrice"></input></li>
+			
+			<li><label>크기</label>
+			<select class="Modify" id="carSize">
+				<option selected="selected">크기 선택</option>
+				<option value="경차">경차</option>	
+				<option value="중형">중형</option>	
+				<option value="대형">대형</option>	
+				<option value="SUV">SUV</option>	
+			</select></li>
+			<li id="ListModifyButton">
+			
+			<input type="button" value="Register" class="button" onclick="register_Car()"></input>
+			<input type="button" value="Delete" class="button" onclick="delCar()"></input>
+			</li>
+		</ul>	
+	</fieldset>
+</form>
+
+</body>
+</html>

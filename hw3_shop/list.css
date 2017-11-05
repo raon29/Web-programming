@@ -1,0 +1,38 @@
+body{
+	background-color:#CCFFFF;
+}
+table{
+		border:solid 1px black;
+		border-collapse: collapse;
+	}
+table td{
+	padding:5px;
+	border:solid 1px black;
+		
+}
+h3{
+	background-color:#FFFFCC;
+	text-align: center;
+}
+#info{
+	float:left;
+	
+}
+#user{
+	float:right;
+	margin: 20px;
+}
+#userinfo{
+	width:200px;
+	height:200px;
+	padding: 10px;
+	margin:10px;
+	border:1px black solid;
+}
+#pointadd{
+	width:200px;
+	height:200px;
+	padding: 10px;
+	margin:10px;
+	border:1px black solid;
+}

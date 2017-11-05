@@ -1,0 +1,48 @@
+fieldset{
+	width: 600px;
+	height: 150%;
+}
+td{
+	text-align: center;
+	width: 100px;
+}
+ul{
+	list-style: none;
+}
+li{
+	margin:	10px;
+}
+p{
+	margin-left: 30px;
+}
+#car_park{
+    display: inline;
+}
+.Modify{
+	margin-left: 20px;
+	width: 150px;
+}
+.button{
+	margin-left:5px;
+    width: 80px;
+    height: 30px;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+.button:hover{
+	background-color: hotpink;
+}
+
+#productor{
+	margin-left: 5px;
+    width: 150px;
+}
+
+#selectSize{
+    margin-left: 10px;
+    width: 100px;
+}
+#inButton{
+    margin-left: 50px;
+}

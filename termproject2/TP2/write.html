@@ -1,0 +1,39 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel = "stylesheet" type = "text/css" href = "t2.css">
+<script src="write.js"></script>
+<form action="write_action.jsp">
+<body id ="wb">
+<div id = "wd">
+<table>
+<tr>
+<td>제목</td> 
+<td><input id ="tt" type="text" name="title" required></td>
+</tr>
+<tr>
+<td></td>
+<td><textarea name = "content" rows = "10" cols= "100" required></textarea></td>
+</tr>
+<tr>
+<td id = "user_style"><td>
+</tr>
+</table>
+스킨<br>
+<div id = skin>
+선택<input type="radio" name="skin" value="select"/>
+자동<input type="radio" checked="checked" name="skin" value="auto"/>
+</div>
+<div id = "select_skin">
+<img class = "skin"src ="angrytube.gif"><input type="radio" name="skin" value="angry"/>
+<img class = "skin"src ="love.gif"><input type="radio" name="skin" value="love"/>
+<img class = "skin"src ="nomal.jpg"><input type="radio" name="skin" value="nomal"/>
+<img class = "skin"src ="rain.gif"><input type="radio" name="skin" value="sad"/>
+<img class = "skin"src ="happy.gif"><input type="radio" name="skin" value="happy"/>
+</div>
+<input class = "sb" type="submit" value="작성완료" >
+<div>
+</form>
+</html>
+
+
+

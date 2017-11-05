@@ -1,0 +1,53 @@
+﻿<html>
+
+
+<head>
+
+<title>201402389 calculator</title>
+<link type="text/css" rel="stylesheet" href="calculator.css"></link>
+<script src="calculator.js"></script>
+
+</head>
+
+
+<body>
+	<div id="calculator">
+	<form name="calculator" action="" method="get">
+		<div id="input">
+			<input type="text" name="oldNumScreen" class="screen" value="0" onfocus="this.blur();"></input>
+			<input type="text" name="numScreen" value="0" class="screen"  onfocus="this.blur();"/>
+		</div>
+		<div id="calcu-btn">
+			<ul>
+				<li onclick="command(1)">1</li>
+				<li onclick="command(2)">2</li>
+				<li onclick="command(3)">3</li>
+				<li class="tool" onclick="del()">del</li>
+				<li class="tool" onclick="times()">*</li>
+				<li onclick="command(4)">4</li>
+				<li onclick="command(5)">5</li>
+				<li onclick="command(6)">6</li>
+				<li class="tool" onclick="clearScreen()">C</li>
+				<li class="tool" onclick="minus()">-</li>
+				<li onclick="command(7)">7</li>
+				<li onclick="command(8)">8</li>
+				<li onclick="command(9)">9</li>
+				<li class="tool" onclick="divide()">/</li>
+				<li class="tool" onclick="plus()">+</li>
+				<li onclick="convertion()">±</li>
+				<li onclick="command(0)">0</li>
+				<li onclick="dot()">.</li>
+				<li class="tool" onclick="equal()">=</li>
+			</ul>
+		</div>
+
+	</form>
+	</div>
+	<div id="history">
+		<p>History<p>
+		<ul id="history_1">
+		</ul>
+	</div>
+</body>
+
+</html>
